@@ -1,5 +1,6 @@
 %define		vendor_name kglwatersaver
 Summary:	KGLWaterSaver - OpenGL screensaver for KDE
+Summary(pl):	KGLWaterSaver - oparty na OpenGL wygaszacz ekranu dla KDE
 Name:		kde-screensaver-%{vendor_name}
 Version:	0.6
 Release:	0.1
@@ -20,6 +21,12 @@ Screensaver for KDE using OpenGL for visual effects.
 Features:
 - Choose between Images or the current Desktop to "sink under water"
 - Various effects: Whirl, Bubble, Rain
+
+%description -l pl
+Wygaszacz ekranu dla KDE wykorzystuj±cy OpenGL do efektów wizualnych.
+Mo¿liwo¶ci:
+- wybór miêdzy obrazkami lub aktualnym pulpitem do zatapiania pod wod±
+- ró¿ne efekty: wir, b±belki, deszcz
 
 %prep
 %setup -q -n %{vendor_name}-%{version}
