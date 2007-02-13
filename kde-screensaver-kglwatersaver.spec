@@ -1,6 +1,6 @@
 %define		vendor_name kglwatersaver
 Summary:	KGLWaterSaver - OpenGL screensaver for KDE
-Summary(pl.UTF-8):   KGLWaterSaver - oparty na OpenGL wygaszacz ekranu dla KDE
+Summary(pl.UTF-8):	KGLWaterSaver - oparty na OpenGL wygaszacz ekranu dla KDE
 Name:		kde-screensaver-%{vendor_name}
 Version:	0.6
 Release:	1
